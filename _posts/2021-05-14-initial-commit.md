@@ -1,6 +1,7 @@
 ---
 title: "Initial Commit"
 layout: post
+comments: true
 ---
 
 Welcome to the beginning of a series of experiments and thought recording process. There are no rules, just a single guiding principle:

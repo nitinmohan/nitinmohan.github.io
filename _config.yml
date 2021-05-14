@@ -1,0 +1,32 @@
+title: "Nitin's Playground"
+author: "Nitin Mohan"
+description: "&copy; Nitin Mohan 2021"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+minimal: false
+
+# Menu
+
+navigation:
+  - { file: "index.html" }
+  - { file: "about.md" }
+
+external:
+  - { title: Mail, icon: envelope, url: "mailto:nitin.mohan08@gmail.com" }
+  - { title: Github, icon: github, url: "https://github.com/nitinmohan" }
+  - { title: Subscribe, icon: rss, url: "/feed.xml" }
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+  - jekyll-feed
